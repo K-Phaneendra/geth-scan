@@ -1,6 +1,6 @@
 # NodeJS API Server
 
-This is an API server created using NodeJS and ExpressJS. Below are the points to consider before starting to work on this application.
+This is an API server created using NodeJS, ExpressJS and Web3.js. Below are the points to consider before starting to work on this application.
 
 ## Node version
 
@@ -13,10 +13,9 @@ Mentioned in `.env` file
 Values in .env file are below
 
 ```env
-PORT = number_here
-CORS_ORIGIN = "Website URL"
-NOTION_INTEGRATION_KEY = "alpha numeric key"
-NOTION_WORKSPACE_ID = "alpha numeric key"
+PORT = number here
+GETH_HTTP_PROVIDER = "http url with port of your geth node"
+GETH_NODE_ADDRESS = "public address of your geth node"
 ```
 
 ## Install node modules
