@@ -7,4 +7,6 @@ API Server: NodeJS, ExpressJS, Web3.js application
 UI: ReactJS
 
 ## UI
+
+Transactions:
 ![Transactions](ui/transactions.png)
